@@ -1,0 +1,14 @@
+{
+    "name": "nl-study",
+    "version": "0.1.0",
+    "main": "index.js",
+    "author": "Qi Wenmin <qiwenmin@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "netlify-lambda": "^1.6.3"
+    },
+    "scripts": {
+        "dev": "netlify-lambda serve functions",
+        "build": "netlify-lambda build functions"
+    }
+}
